@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poções e Soluções - Loja</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧪 Poções e Soluções</h1>
+      <p><em>Desde 1867 no Beco da Última Saída</em></p>
+    </header>
+
+    <section id="historia">
+      <h2>Nossa História</h2>
+      <p>
+        Fundada em 1867 pela bruxa Innabelle Merigold, nossa loja atravessou gerações
+        fornecendo as mais raras e eficazes poções para bruxos e trouxas.
+        Superamos a pandemia de COVID-19 com a ajuda da tecnologia, e agora estamos
+        orgulhosamente online para servir você!
+      </p>
+      <div style="display: flex; gap: 30px; margin: 30px 0; flex-wrap: wrap; justify-content: center;">
+        <!-- Card 1 -->
+        <div style="background: #1f1f1f; border-radius: 8px; padding: 15px; text-align: center; width: 500px; border: 1px solid #333;">
+          <img src="/images/loja_antiga.png" alt="Loja em 1867" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 4px; background: #111;">
+          <p style="margin-top: 10px; font-size: 0.9rem; color: #bbb;">🏚️ Loja em 1867</p>
+        </div>
+        <!-- Card 2 -->
+        <div style="background: #1f1f1f; border-radius: 8px; padding: 15px; text-align: center; width: 500px; border: 1px solid #333;">
+          <img src="/images/loja_atual.png" alt="Loja atual" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 4px; background: #111;">
+          <p style="margin-top: 10px; font-size: 0.9rem; color: #bbb;">🧪 Loja atual</p>
+        </div>
+      </div>
+    </section>
+
+    <hr style="border-color:#444; margin: 30px 0;">
+
+    <section id="produtos">
+      <h2>Nossas Poções</h2>
+      <div id="productList" class="potion-grid">
+        <!-- Renderizado via JS -->
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>📞 Contato: (11) 99999-9999 | ✉️ merigold@pocoes-solucoes.com</p>
+      <p>📍 Beco da Última Saída, nº 42 - Londres</p>
+      <p>© 1867 - Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <script type="module" src="/js/client.js"></script>
+</body>
+</html>
