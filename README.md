@@ -2,6 +2,8 @@
 
 Web Service para a loja de poções “Poções e Soluções”, desenvolvido para a cliente Innabelle Merigold.
 
+Feito por: Marcos Cota, NUSP: 15511001
+
 ## Requisitos atendidos
 
 - Cadastro, listagem e remoção de poções (nome, descrição, imagem, preço)
